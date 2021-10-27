@@ -81,7 +81,7 @@ function ForceGraph({
         .attr("style", "max-width: 100%; height: auto; height: intrinsic;");
   
     const simulation = d3.forceSimulation(nodes)
-        .alphaMin(0.1)
+        .alphaMin(0.15)
         .force("link", forceLink)
         .force("charge", forceNode)
         .force("x", d3.forceX())

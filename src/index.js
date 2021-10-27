@@ -95,7 +95,7 @@ d3.csv('./data_filtered.csv').then((data) => {
         nodeTitle: d => d.labels ? `${d.labels}` : `${d.id}`,
         width: 1000,
         height: 800,
-        nodeRadius: 8,
+        nodeRadius: 10,
         radiusScale
     })
     document.querySelector('.viz-3').append(chart2)
